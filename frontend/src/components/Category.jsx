@@ -51,7 +51,7 @@ function Category() {
 
   return (
     <div>
-      <div className="container">
+      <div className="container mx-auto">
         <div className="flex  justify-evenly">
           {category.map((cat, index) => {
             return (

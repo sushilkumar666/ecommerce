@@ -2,7 +2,7 @@ import React from "react";
 
 function HomePageBanner() {
   return (
-    <div className="container" style={{ padding: "10px" }}>
+    <div className="container mx-auto" style={{ padding: "10px" }}>
       <div className="flex ">
         <div className="flex flex-col w-[25%] ">
           <div className="p-2  ">
