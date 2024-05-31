@@ -24,7 +24,7 @@ function HomePageBanner() {
             <a href="">
               <div className="relative  ">
                 <div className="absolute top-10 text-[#041E42]  text-3xl text-left left-4">
-                  Hot days, <br /> hotter new <br />
+                  Hot days, <br /> hotter  <br />
                   looks{" "}
                   <p className="text-sm leading-10 font-light ">shop now</p>
                 </div>
