@@ -1,0 +1,16 @@
+.image-bullet {
+    list-style-type: none;
+    position: relative;
+  }
+
+  .image-bullet::before {
+    content: '';
+    background-image: url('https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90'); /* Replace with your image URL */
+    background-size: cover;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    left: -0.8em;
+    top: 1.2em;
+    
+  }

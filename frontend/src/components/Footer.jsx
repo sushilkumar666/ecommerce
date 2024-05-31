@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[rgb(0,79,154)]">
+    <div className="bg-[rgb(0,79,154)] w-[100vw] absolute bottom-0">
       <div>
         <div className="flex p-4  justify-evenly">
           <div className="flex text-white flex-col text-left   text-sm">

@@ -7,7 +7,7 @@ function SearchBar() {
       <form action="">
         <div className="flex rounded-full bg-white items-center  px-2 ">
           <input
-            className="rounded-full p-3 w-full"
+            className="rounded-full focus:outline-none p-3 border-none w-full"
             type="Search"
             name="search"
             placeholder="Search everything at online and in store"
