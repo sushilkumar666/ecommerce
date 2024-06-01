@@ -8,6 +8,7 @@ import ProductDetail from "../components/ProductDetails/ProductDetail";
 import AdminDashboard from "../components/AdminDashboard";
 import CreateProductForm from "../components/CreateProductForm";
 import AddAndUpdateCategory from "../components/AddAndUpdateCategory";
+import MyModalHandler from "../components/modal/MyModalHandler";
 
 function Home() {
   return (
@@ -23,6 +24,8 @@ function Home() {
       {/* <AdminDashboard /> */}
       {/* <CreateProductForm /> */}
       <AddAndUpdateCategory />
+      <MyModalHandler />
+
     </div>
   );
 }
