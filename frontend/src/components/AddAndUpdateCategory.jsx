@@ -12,10 +12,10 @@ function AddAndUpdateCategory() {
   ];
   return (
     <div>
-      <div className="flex  flex-col">
+      <div className="flex flex-col">
         <div className="text-2xl my-10">All Categories</div>
         <div>
-          <div className="w-[40%] items-center flex justify-between border border-black text-left rounded-md text-xl font-semibold pl-4 mb-5 mx-auto">
+          <div className="w-[50vw] items-center flex justify-between border border-black text-left rounded-md text-xl font-semibold pl-4 mb-5 mx-auto">
             <form action="">
               <div>
                 <label className="text-left text-base" htmlFor="createCategory">
@@ -36,7 +36,7 @@ function AddAndUpdateCategory() {
         </div>
         {Categories.map((category) => {
           return (
-            <div className="flex items-center  text-left pl-4 justify-between border w-[40vw] rounded-md m-1 mx-auto p-1 border-gray-400">
+            <div className="flex items-center  text-left pl-4 justify-between border w-[50vw] rounded-md m-1 mx-auto p-1 border-gray-400">
               <div className=" w-[200px] text-base font-semibold">
                 {category}
               </div>

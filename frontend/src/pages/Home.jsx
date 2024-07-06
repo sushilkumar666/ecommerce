@@ -8,21 +8,27 @@ import ProductDetail from "../components/ProductDetails/ProductDetail";
 import AdminDashboard from "../components/AdminDashboard";
 import CreateProductForm from "../components/CreateProductForm";
 import AddAndUpdateCategory from "../components/AddAndUpdateCategory";
+import Cart from "../components/Cart";
 
 function Home() {
   return (
     <div>
       {/* <Category />
+    
+      
+     
+
+      <ProductDetail />
+      <CreateProductForm />
+      <AddAndUpdateCategory /> */}
+      {/* <AdminDashboard /> */}
+      {/* <Cart /> */}
       <HomePageBanner />
       <Card />
       <div className="flex bg-gray-100">
         <Filter />
         <SearchProducts />
       </div>
-      <ProductDetail /> */}
-      {/* <AdminDashboard /> */}
-      {/* <CreateProductForm /> */}
-      <AddAndUpdateCategory />
     </div>
   );
 }
