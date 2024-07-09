@@ -6,7 +6,7 @@ import { FaRegUser } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center sticky top-0  bg-[#0071DC] ">
+    <div className="flex justify-between z-10 items-center sticky top-0  bg-[#0071DC] ">
       <div className="font-s px-6 text-2xl text-white font-semibold">
         E-Commerce
       </div>

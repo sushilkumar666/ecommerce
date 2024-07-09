@@ -2,11 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-<<<<<<< HEAD
     <div className="bg-[rgb(0,79,154)] mx-auto w-[98vw] sticky  ">
-=======
-    <div className="bg-[rgb(0,79,154)] w-[100vw] relative bottom-0">
->>>>>>> 2024c8bbfd9bc3a8af780a84c53fb0c8c9f45193
       <div>
         <div className="flex p-4  justify-evenly">
           <div className="flex text-white flex-col text-left   text-sm">
